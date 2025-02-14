@@ -63,11 +63,11 @@ TWITTER_USERNAME=your_username
 TWITTER_PASSWORD=your_password
 TWITTER_EMAIL=your_email
 TWITTER_2FA_SECRET=your_2fa_secret
-TWEET_CRAWL=10                # Number of tweets to crawl (default: 10, max: 800)
-TWEET_CHAR_LIMIT=280          # Tweet character limit (requires Premium+)
-REPLY_LATEST_TWEET=5         # Number of latest tweets to reply to (default: 5)
+TWEET_CRAWL=10                        # Number of tweets to crawl (default: 10, max: 800)
+TWEET_CHAR_LIMIT=280                  # Tweet character limit (requires Premium+)
+REPLY_LATEST_TWEET=5                  # Number of latest tweets to reply to (default: 5)
 GEMINI_API_KEY=your_api_key
-GEMINI_MODEL=gemini-1.5-flash # Default model
+GEMINI_MODEL=gemini-1.5-flash         # Default model
 ```
 
 ## 📚 Contributing
