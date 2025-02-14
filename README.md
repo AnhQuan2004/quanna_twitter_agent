@@ -12,12 +12,6 @@ AI-Agent is a powerful automation tool designed to interact with Twitter, provid
    ```bash
    npm install
    ```
-   then 
-   ```bash
-   tsc --init
-   ```
-   in `.tsconfig.json` find `resolveJsonModule` and set it true.
-   
 2. **Set Up Environment Variables**  
    - Copy the example environment file:
      ```bash
