@@ -11,7 +11,7 @@ export async function crawlTweets(scraper: Scraper, listUsers: string[]) {
         return;
     }
     for (const user of listUsers) {
-        console.log("Crawling 100 latest tweets for user:", user);
+        console.log("Crawling tweets for user:", user);
         const tweets = scraper.getTweets(user, amount);
         for await (const tweet of tweets) {
             console.log("Tweet:", tweet.text);
