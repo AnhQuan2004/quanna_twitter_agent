@@ -1,0 +1,23 @@
+{
+  "name": "x-crawler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@elizaos/core": "^0.1.9",
+    "@google/generative-ai": "^0.21.0",
+    "agent-twitter-client": "^0.0.18",
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "pg": "^8.13.1",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.7.3"
+  }
+}
