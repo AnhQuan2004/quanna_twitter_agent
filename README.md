@@ -70,10 +70,6 @@ GEMINI_API_KEY=your_api_key
 GEMINI_MODEL=gemini-1.5-flash # Default model
 ```
 
-## ✅ Requirements
-- Node.js v16+  
-- NPM v8+
-
 ## 📚 Contributing
 Feel free to contribute to improve this project. Fork the repository and create a pull request with your changes.
 
