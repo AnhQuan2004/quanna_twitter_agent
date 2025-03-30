@@ -10,7 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@elizaos/core": "^0.1.9",
+    "@elizaos/core": "^0.25.9",
     "@google/generative-ai": "^0.21.0",
     "agent-twitter-client": "^0.0.18",
     "dotenv": "^16.4.7",
