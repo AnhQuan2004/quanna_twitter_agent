@@ -8,6 +8,8 @@ import fs from "fs";
 dotenv.config();
 
 const number = Number(process.env.REPLY_LATEST_TWEET) || 5;
+const rapidApiHost = process.env.RAPIDAPI_HOST || "";
+const rapidApiKey = process.env.RAPIDAPI_KEY || "";
 
 // Hàm xóa từ đầu tiên của chuỗi
 function removeFirstWord(str: string): string {
@@ -133,8 +135,8 @@ async function checkRetweet(screenname: string, tweetId: string) {
       tweet_id: tweetId,
     },
     headers: {
-      "x-rapidapi-host": "twitter-api45.p.rapidapi.com",
-      "x-rapidapi-key": "a1db37b8edmsh58bcf1f194ccfd5p1b429cjsn1bafded385d7",
+      "x-rapidapi-host": rapidApiHost,
+      "x-rapidapi-key": rapidApiKey,
     },
   };
 
@@ -158,8 +160,8 @@ async function getTweetDetail(conversationId: string) {
     url: "https://twitter-api45.p.rapidapi.com/tweet_thread.php",
     params: { id: conversationId },
     headers: {
-      "x-rapidapi-host": "twitter-api45.p.rapidapi.com",
-      "x-rapidapi-key": "a1db37b8edmsh58bcf1f194ccfd5p1b429cjsn1bafded385d7",
+      "x-rapidapi-host": rapidApiHost,
+      "x-rapidapi-key": rapidApiKey,
     },
   };
 
